@@ -1,0 +1,31 @@
+	body{
+		color: white;
+	 	background-color: DarkOrange;
+	 }
+
+	 p {
+
+		color: White;
+		font-size: 18;
+		font-family: LucidaConsole, Monaco, monospace; 
+		text-indent: 70px;
+	 }
+
+	 title {
+	 	color: White;
+	 }
+
+	 h1 {
+	 	color: White;
+	 	font-family: ComicSansMS, cursive,  sans-serif;
+	 	font-size: 72;
+	 }
+
+	 img {
+	 	text-indent:100;
+	 }
+
+	 h1 {
+	 	background-color: Gray;
+	 	border-radius: 15px;
+	 }
