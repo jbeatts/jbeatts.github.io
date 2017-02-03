@@ -1,4 +1,4 @@
-head {
+body {
   background-color: DarkOrange;
 }
 
@@ -9,4 +9,13 @@ h1 {
   background-color: Gray;
   border-radius: 15px;
 }
+
+p {
+  font-size: 18px;
+  font-family: LucidaConsole, Monaco, monospace;
+  text-indent: 70px;
+}
+
+body {}
+
 
