@@ -1,0 +1,12 @@
+head {
+  background-color: DarkOrange;
+}
+
+h1 {
+  color: White;
+  font-size: 72px;
+  font-family: ComicSansMS, cursive, sans-serif;
+  background-color: Gray;
+  border-radius: 15px;
+}
+
