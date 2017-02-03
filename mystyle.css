@@ -1,3 +1,16 @@
+	body{
+		color: white;
+		background-image: link ("https://www.walldevil.com/wallpapers/a23/texture-abstrak-background-landscapes-blogger-wicked-backgrounds-wallpapers-abstract-textures-intentions.jpg")
+	 }
+
+	 p {
+
+		color: White;
+		font-size: 18;
+		font-family: LucidaConsole, Monaco, monospace; 
+		text-indent: 70px;
+	 }
+
 	 title {
 	 	color: White;
 	 }
@@ -8,11 +21,19 @@
 	 	font-size: 72;
 	 }
 
-   body {
-				background-image: url("http://media.istockphoto.com/photos/abstract-blue-background-picture-id478985058?k=6&m=478985058&s=170667a&w=0&h=OVed_5p0yljMLKlsJikpoWAwRLb3V2r6_C0ualmOfrw=")
-				background-size: 100%
-	}
+	 img {
+	 	text-indent:100;
+	 }
 
+	 h1 {
+	 	background-color: Gray;
+	 	border-radius: 15px;
+	 }
+
+	* {
+	background-image: url("https://www.walldevil.com/wallpapers/a23/texture-abstrak-background-landscapes-
+	blogger-wicked-backgrounds-wallpapers-abstract-textures-intentions.jpg");
+}
 
 #left{
 	float:left;
