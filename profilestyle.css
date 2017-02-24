@@ -1,0 +1,14 @@
+h1 {
+  color: black;
+  font-size: 86px;
+  font-family: ComicSansMS, cursive, sans-serif;
+  text-indent: 18px;
+  text-shadow: 2px 2px lightgray;
+	border: 18px solid black ;
+}
+
+head , h1 , body {
+  background-image: link ("https://s-media-cache-ak0.pinimg.com/564x/48/1c/ba/481cbafcc073fb298303f153ac97c463.jpg");
+}
+
+
