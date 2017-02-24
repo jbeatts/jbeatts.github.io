@@ -16,19 +16,8 @@
 	 	color: White;
 	 }
 
-	 h1 {
-	 	color: White;
-	 	font-family: ComicSansMS, cursive,  sans-serif;
-	 	font-size: 72;
-	 }
-
 	 img {
 	 	text-indent:100;
-	 }
-
-	 h1 {
-	 	background-color: Gray;
-	 	border-radius: 15px;
 	 }
 
 	* {
@@ -46,6 +35,20 @@
 #container{
 	
 }
+
+h1 {
+  color: whitesmoke;
+  font-size: 86px;
+  font-family: ComicSansMS, cursive, sans-serif;
+  border-radius: 15px;
+  text-indent: 18px;
+  text-shadow: 2px 2px #ff0000;
+}
+
+.box {
+	border: 18px solid black ;
+}
+
 
 
 
