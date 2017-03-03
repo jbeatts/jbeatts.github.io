@@ -1,0 +1,27 @@
+h1 {
+  color: black;
+  font-size: 86px;
+  font-family: ComicSansMS, cursive, sans-serif;
+  text-indent: 18px;
+  text-shadow: 2px 2px lightgray;
+	border: 18px solid black ;
+}
+
+#name {
+  color: red;
+  text-align: center;
+  font-size: 32px;
+  font-family: Arial Black;
+}
+
+#left{
+	float:left;
+  font-size: 18px;
+  text-indent: 370px;
+}
+
+#right{
+	float:right;
+  font-size: 18px;
+  padding-right: 190px;
+}
