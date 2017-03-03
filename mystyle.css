@@ -46,11 +46,26 @@ body{
 	
 }
 
+p {
+	color:black;
+}
 
+#middle {
+	align:middle;
+	color:black;
+}
 
+p {
+	color: black;
+}
 
+#click1 {
+	border: 1px solid black;
+}
 
-
+#click2 {
+	border: 1px solid black;
+}
 
 
 
