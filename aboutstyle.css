@@ -1,0 +1,19 @@
+h1 {
+  color: #0074D9;
+  font-size: 86px;
+  font-family: ComicSansMS, cursive, sans-serif;
+  text-indent: 18px;
+  text-shadow: 2px 2px #0074D9;
+	border: 18px solid black;
+  border-radius: 16px;
+}
+
+body {
+  background-image: url("http://farm5.staticflickr.com/4073/4887001390_4341f98438_z.jpg");
+}
+
+p {
+  font-size: 18px;
+  text-indent: 42px;
+  font-family: LucidaConsole, Monaco, monospace;
+}
