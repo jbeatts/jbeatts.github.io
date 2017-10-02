@@ -24,15 +24,19 @@ body {
 
 ul {
     list-style-type: none;
-    margin: 110;
+    margin: 10;
     padding: 0;
     font-size:20px;
-    width: 200px;
+    width: 100%;
     background-color: powderblue;
 }
 
+ul li{
+
+  display: inline;
+}
+
 li a {
-    display: block;
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
@@ -55,4 +59,9 @@ li a:hover {
 .box2 {
   border: 18px solid whitesmoke ;
 }
+
+#menu {
+  align:;
+}
+
 
