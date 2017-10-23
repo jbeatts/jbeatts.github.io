@@ -1,7 +1,8 @@
 <html>
 	 <head><!-- beginning header tag -->
-		<title>Projects</title>	<!-- title --> 
-		<link rel="stylesheet" type="text/css" href="indexstyle.css"><!-- linl to stylesheet-->
+		<title>Magic 8 Ball</title>	<!-- title --> 
+		<link rel="stylesheet" type="text/css" href="magic8ballstyle.css"><!-- linl to stylesheet-->
+		<script src="magic8ball.js"></script>
 	</head> <!-- end head tag --> 
 	<body><!-- beginning body tag -->
 		<div id="container"><!-- creating container -->
@@ -17,12 +18,12 @@
 				</a>
 			</nav>
 			<section>
-				List of projects:
-				<ul>
-					<li><a href="petfinder.html">Pet Finder</a></li>
-					<li><a href="magic8ball.html">Magic 8 Ball</a></li>
-					<li><a href="">Project 3</a></li>
-				</ul>
+				<img id="magic8ball" src="8ball.jpg"
+					onclick="shakeMagic8Ball();"/>
+					<p id="results">
+						Click the Magic 8 ball to tell your fortune.
+					</p> 
+
 			</section>
 		</div>	<!-- end contaienr tag-->
 </body><!-- end body tag -->
