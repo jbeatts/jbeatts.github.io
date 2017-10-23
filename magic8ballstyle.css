@@ -49,4 +49,11 @@ li a:hover {
   align:;
 }
 
+p {
+  font-size: 24px;
+} 
+
+nav {
+  text-decoration:none;
+}
 
