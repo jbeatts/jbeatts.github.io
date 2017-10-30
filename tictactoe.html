@@ -2,6 +2,7 @@
 	 <head><!-- beginning header tag -->
 		<title>Tic Tac Toe</title>	<!-- title --> 
 		<link rel="stylesheet" type="text/css" href="tictactoestyle.css"><!-- linl to stylesheet-->
+		<script src="tictactoescript.js"></script>
 	</head> <!-- end head tag --> 
 	<body><!-- beginning body tag -->
 		
@@ -21,15 +22,15 @@
 			<br>
 			<div id="tictactoeboard">
 				<!--This is empty for now-->
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
-				<div class="box"></div>
+				<div id="r1c1" onclick="turn ('r1c1')" class="box"></div>
+				<div id="r1c2" onclick="turn ('r1c2')" class="box"></div>
+				<div id="r1c3" onclick="turn ('r1c3')" class="box"></div>
+				<div id="r2c1" onclick="turn ('r2c1')" class="box"></div>
+				<div id="r2c2" onclick="turn ('r2c2')" class="box"></div>
+				<div id="r2c3" onclick="turn ('r2c3')" class="box"></div>
+				<div id="r3c1" onclick="turn ('r3c1')" class="box"></div>
+				<div id="r3c2" onclick="turn ('r3c2')" class="box"></div>
+				<div id="r3c3" onclick="turn ('r3c3')" class="box"></div>
 			</div>
 			<section id="results">
 			Click to start...
