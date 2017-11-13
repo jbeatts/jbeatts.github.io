@@ -20,7 +20,7 @@ head {
 body {
   background-image: url("http://www.publicdomainpictures.net/pictures/50000/velka/light-blue-wood-texture.jpg");
   background-size: 100%;
-  background-image:("");
+  
 }
 
 ul {
@@ -59,6 +59,9 @@ ul {
   text-decoration:none;
   transition:1s;
   background-color:white;
+  font-size:18px;
+  text-indent:180px;
+  align-content: center;
 
 }
 
@@ -86,8 +89,9 @@ a {
 }
 
 #logo {
-	height: 100%;
-    width: 50%;
+	height: 125%;
+    width: 75%;
     background-image:;
+    padding-left:0px;
 }
 
