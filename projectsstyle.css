@@ -20,6 +20,7 @@ head {
 body {
   background-image: url("http://www.publicdomainpictures.net/pictures/50000/velka/light-blue-wood-texture.jpg");
   background-size: 100%;
+  background-image:("");
 }
 
 ul {
@@ -43,16 +44,30 @@ ul {
     padding: 8px 16px;
     text-decoration: none;
     background-color:powderblue;
+    border-style: solid;
     border-radius:6px;
+    font-size:18px;
 }
 
 .list:hover{
   background:yellow;
+  opacity:0.5;
 }
 
 .line {
   display: inline;
+  text-decoration:none;
+  transition:1s;
+  background-color:white;
 
+}
+
+.line:visited {
+	color:black;
+}
+
+.line:hover {
+	opacity:10px;
 }
 
 #ul1 {
@@ -63,3 +78,16 @@ a {
   display:inline-block;
   text-decoration:none;
 }
+
+#text {
+	font-size:28px;
+	border-style: solid; 
+	line-height:42px;
+}
+
+#logo {
+	height: 100%;
+    width: 50%;
+    background-image:;
+}
+
