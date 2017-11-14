@@ -1,10 +1,12 @@
-h1 {
+h1 , h2 , h3 {
   color: whitesmoke;
   font-size: 86px;
   font-family: ComicSansMS, cursive, sans-serif;
   border-radius: 15px;
   text-indent: 18px;
   text-shadow: 2px 2px #ff0000;
+  display:inline;
+  text-align: center;
 }
 
 p {
@@ -23,13 +25,15 @@ body {
   
 }
 
-ul {
+#paragraph {
     list-style-type: none;
     margin: 10;
     padding: 0;
     font-size:20px;
     width: 100%;
     display: inline;
+    text-indent:none;
+    
 }
 
 
@@ -51,7 +55,6 @@ ul {
 
 .list:hover{
   background:yellow;
-  opacity:0.5;
 }
 
 .line {
@@ -59,9 +62,16 @@ ul {
   text-decoration:none;
   transition:1s;
   background-color:white;
-  font-size:18px;
+  font-size:24px;
   text-indent:180px;
   align-content: center;
+  line-height:90px;
+  padding-left: 40px;
+  margin-left: -40px;
+  padding-right:40px;
+  margin-right:-40px;
+  padding-top:40px;
+  padding-bottom:40px;
 
 }
 
@@ -70,7 +80,7 @@ ul {
 }
 
 .line:hover {
-	opacity:10px;
+	opacity:0.6;
 }
 
 #ul1 {
@@ -89,9 +99,13 @@ a {
 }
 
 #logo {
-	height: 125%;
-    width: 75%;
-    background-image:;
+    background-image:("logo-1_clipped_rev_1.png");
     padding-left:0px;
+    height:90%;
+    width:auto;
+}
+
+h1 , h2 {
+	display:inline;
 }
 
