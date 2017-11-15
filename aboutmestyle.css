@@ -30,7 +30,7 @@ body {
 	padding-bottom:40px;
 }
 
-#vpdpic {
+.tvpics {
 	height:25%;
 	width:auto;
 }
@@ -54,15 +54,19 @@ body {
 	text-shadow:red; 
 }
 
-#show1 {
+.showtitle {
 	color:black;
 	text-shadow:1px 1px red;
 	font-family:"Comic Sans MS", cursive, sans-serif;
+	font-size: 18px; 
 }
 
 #highlight {
 	background-color:yellow;
-	font-size:18px;
+	font-size:20px;
 }
 
-
+#sgpic {
+	height:25%;
+	width:auto;
+}
