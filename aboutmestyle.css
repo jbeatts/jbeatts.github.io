@@ -54,5 +54,15 @@ body {
 	text-shadow:red; 
 }
 
+#show1 {
+	color:black;
+	text-shadow:1px 1px red;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+}
+
+#highlight {
+	background-color:yellow;
+	font-size:18px;
+}
 
 
