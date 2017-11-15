@@ -28,6 +28,7 @@ body {
 	padding-left:40px;
 	padding-top:40px;
 	padding-bottom:40px;
+	float:left;
 }
 
 .tvpics {
@@ -61,12 +62,39 @@ body {
 	font-size: 18px; 
 }
 
+.musictitle {
+	color:blue;
+	text-shadow:1px 1px turquoise;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	text-indent:none;
+	font-size: 
+}
+
+#music {
+	list-style-type: none;
+}
+
 #highlight {
 	background-color:yellow;
 	font-size:20px;
 }
 
 #sgpic {
+	height:25%;
+	width:auto;
+}
+
+#music {
+	background-color:white;
+	padding-right:40px;
+	padding-left:40px;
+	padding-top:40px;
+	padding-bottom:40px;
+	display:inline-block;
+	float:left;
+}
+
+.musicpics {
 	height:25%;
 	width:auto;
 }
