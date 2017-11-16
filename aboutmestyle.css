@@ -29,6 +29,7 @@ body {
 	padding-top:40px;
 	padding-bottom:40px;
 	float:left;
+	margin-left:2px;
 }
 
 .tvpics {
@@ -43,6 +44,7 @@ body {
 	padding-top:40px;
 	padding-bottom:40px;
 	display:inline-block;
+	float:right;
 }
 
 #vampire {
@@ -97,4 +99,29 @@ body {
 .musicpics {
 	height:25%;
 	width:auto;
+}
+
+.bottom {
+    height: 200px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: none;
+    margin-bottom: none;
+}
+
+.flex-container {
+  display: flex;
+}
+
+#tvshows {
+	margin-right:0px;
+}
+
+#content {
+	margin-left:40px;
+}
+
+#div3 {
+
 }
