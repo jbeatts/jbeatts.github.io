@@ -1,3 +1,7 @@
+li {
+	list-style-type:none;
+}
+
 a {
   display:inline-block;
   text-decoration:none;
@@ -39,10 +43,10 @@ body {
 
 #tvshows {
 	background-color:white;
-	padding-right:40px;
-	padding-left:40px;
-	padding-top:40px;
-	padding-bottom:40px;
+	padding-right:25px;
+	padding-left:25px;
+	padding-top:25px;	
+	padding-bottom:25px;
 	display:inline-block;
 	float:right;
 }
@@ -88,10 +92,10 @@ body {
 
 #music {
 	background-color:white;
-	padding-right:40px;
-	padding-left:40px;
-	padding-top:40px;
-	padding-bottom:40px;
+	padding-right:25px;
+	padding-left:25px;
+	padding-top:25px;	
+	padding-bottom:25px;
 	display:inline-block;
 	float:left;
 }
@@ -115,13 +119,48 @@ body {
 }
 
 #tvshows {
-	margin-right:0px;
+	margin-right:1.25cm;
 }
 
 #content {
 	margin-left:40px;
 }
 
-#div3 {
+#div2 {
+	margin-right:0.3cm;
+}
 
+#bbriggs {
+	margin-right:0.5cm;
+	margin-left:0.5cm;
+}
+
+#mypets {
+	background-color:white;
+	margin-top:0.6cm;
+	padding-right:25px;
+	padding-left:25px;
+	padding-top:25px;	
+	padding-bottom:25px;
+	display:inline-block;
+}
+
+#joey {
+	height:20%;
+	width:auto;
+}
+
+#ziggyandlily {
+	height:25%;
+	width:auto;
+}
+
+#turtle {
+	height:30%;
+	width:auto;
+}
+
+.petname {
+	color: #C5B358;
+	text-shadow:silver 1px;
 }
