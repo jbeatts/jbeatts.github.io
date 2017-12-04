@@ -20,10 +20,10 @@ function randomCircle () {
 function clickCircle () {
 
 	//circle is clicked, hide circle
-	//document.getElementById("circle").style.visibility = "hidden";
+	document.getElementById("circle").style.visibility = "hidden";
 
 	//generate random circle
-	//document.getElementById("circle").style.visibility = "visible";
+	document.getElementById("circle").style.visibility = "visible";
 	
  	//move circle
  	randomCircle ();
