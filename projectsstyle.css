@@ -3,7 +3,7 @@ h1 , h2 , h3 , h4 , h5 {
   font-size: 86px;
   font-family: ComicSansMS, cursive, sans-serif;
   border-radius: 15px;
-  text-indent: 18px;
+  text-indent: 0px;
   text-shadow: 2px 2px #ff0000;
   display:inline;
   text-align: center;
@@ -36,7 +36,6 @@ body {
     
 }
 
-
 .active {
     background-color: #4CAF50;
     color: white;
@@ -58,21 +57,24 @@ body {
 }
 
 .line {
-  display: inline;
-  text-decoration:none;
-  transition:1s;
-  background-color:white;
-  font-size:24px;
-  text-indent:180px;
-  align-content: center;
-  line-height:90px;
-  padding-left: 40px;
-  margin-left: -40px;
-  padding-right:40px;
-  margin-right:-40px;
-  padding-top:40px;
-  padding-bottom:40px;
-
+    display: inline;
+    text-decoration:none;
+    transition:1s;
+    background-color:white;
+    font-size:24px;
+    text-indent:180px;
+    align-content: center;
+    line-height:90px;
+    padding-left: 45px;
+    padding-right:45px;
+    padding-top:40px;
+    padding-bottom:40px;
+    margin-left: 5px;
+    margin-right:5px;
+    text-shadow: 2px 2px red;
+    color:black;
+    padding: 45px; 
+    
 }
 
 .line:visited {
@@ -103,9 +105,5 @@ a {
     padding-left:0px;
     height:90%;
     width:auto;
-}
-
-h1 , h2 {
-	display:inline;
 }
 
