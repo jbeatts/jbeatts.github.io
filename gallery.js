@@ -19,3 +19,5 @@ function next () {
 		document.getElementById("a1").src = list[imagevalue];
 	}
 }
+
+

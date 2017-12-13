@@ -1,13 +1,4 @@
-h1 , h2 , h3 , h4 , h5 {
-  color: whitesmoke;
-  font-size: 86px;
-  font-family: ComicSansMS, cursive, sans-serif;
-  border-radius: 15px;
-  text-indent: 0px;
-  text-shadow: 2px 2px #ff0000;
-  display:inline;
-  text-align: center;
-}
+
 
 p {
   font-size: 18px;
@@ -20,8 +11,10 @@ head {
 }
 
 body {
-  background-image: url("http://www.publicdomainpictures.net/pictures/50000/velka/light-blue-wood-texture.jpg");
+  background-image: 
+  /*url("http://www.publicdomainpictures.net/pictures/50000/velka/light-blue-wood-texture.jpg");*/
   background-size: 100%;
+  background-color:powderblue;
   
 }
 
@@ -50,30 +43,48 @@ body {
     border-style: solid;
     border-radius:6px;
     font-size:18px;
+    border-left-color: yellow;
+    border-right-color: yellow; 
+    background-image:url("http://www.publicdomainpictures.net/pictures/50000/velka/light-blue-wood-texture.jpg");
+    background-size:100%;
 }
 
 .list:hover{
   background:yellow;
 }
 
+.links {
+  display:initial;
+  padding-right:10px;
+  padding-left:10px;
+  height:20px;
+  width:450px;
+  margin-left:0.1cm;
+  margin-right:0.1cm;
+}
+
 .line {
-    display: inline;
     text-decoration:none;
     transition:1s;
     background-color:white;
     font-size:24px;
     text-indent:180px;
     align-content: center;
-    line-height:90px;
+    line-height:25px;
+    width:135px;
     padding-left: 45px;
     padding-right:45px;
     padding-top:40px;
     padding-bottom:40px;
-    margin-left: 5px;
-    margin-right:5px;
     text-shadow: 2px 2px red;
     color:black;
     padding: 45px; 
+    color: whitesmoke;
+    font-size: 24px;
+    font-family: ComicSansMS, cursive, sans-serif;
+    text-indent: 0px;
+    text-shadow: 1px 1px #ff0000;
+    
     
 }
 
@@ -98,6 +109,7 @@ a {
 	font-size:28px;
 	border-style: solid; 
 	line-height:42px;
+  background-image:url("http://www.publicdomainpictures.net/pictures/50000/velka/light-blue-wood-texture.jpg");
 }
 
 #logo {
