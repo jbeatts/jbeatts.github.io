@@ -40,13 +40,14 @@ body {
 #content {
   height:780px;
   max-width:642px;
-  margin-left:1cm;
+  margin-left:0.5cm;
   background-color:white;
   padding-right:18px;
   padding-left:18px;
   padding-bottom:18px;
   padding-top:18px;
   border-radius:5%;
+  display:inline-block;
 
 }
 
@@ -108,7 +109,6 @@ ul {
 
 #reclost {
 	color:black;
-	
 	font-size:22px;
 }
 
@@ -117,3 +117,182 @@ nav {
 	float:center;
 	background-color:gray;
 }
+
+#box3{
+  float:right;
+  background:#FF0000;
+}
+
+p {
+  color:black;
+}
+
+#content2 {
+  height:500px;
+  max-width:560px;
+  width:560px;
+  margin-right:0.5cm;
+  margin-left:1cm;
+  margin-top:0.05cm;
+  background-color:white;
+  padding-right:18px;
+  padding-left:18px;
+  padding-bottom:18px;
+  padding-top:18px;
+  border-radius:5%;
+  display:inline-block;
+  float:right;
+}
+
+#box3{
+    margin-top:0.5cm;
+    margin-left:0.5cm;
+    float:left;
+    padding-right:6px;
+    padding-left:6px;
+    padding-bottom:6px;
+    padding-top:6px;
+}
+#box4{
+    float:left;
+    margin-top:0cm;
+    margin-left:1cm;
+    padding-right:1cm;
+    padding-left:6px;
+    padding-bottom:6px;
+    padding-top:6px; 
+}
+
+#box4-1 {
+    float:left;
+    margin-top:0.5cm;
+    margin-left:1cm;
+    padding-right:1cm;
+    padding-left:6px;
+    padding-bottom:6px;
+    padding-top:6px; 
+}
+
+#click2 {
+  color:black;
+  font-size:10px;
+}
+
+#reclost2 {
+  color:black;
+  font-size:22px;
+}
+
+.style1 {
+  color:black;
+  padding-top:12px; 
+  padding-bottom:12px;
+  padding-left:12px;
+  padding-right:12px;
+  font-weight:bold;
+}
+
+.dropdown {
+    position: relative;
+
+    /** Make it fit tightly around it's children */
+    display: inline-block;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+
+    /**
+     * Set the top of the dropdown menu to be positioned 100%
+     * from the top of the container, and aligned to the left.
+     */
+    top: 100%;
+    left: 0;
+
+    /** Allow no empty space between this and .dropdown */
+    margin: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+
+    /** Show dropdown menu */
+    display: block;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 0;
+
+    /****************
+     ** NEW STYLES **
+     ****************/
+
+    list-style: none; /** Remove list bullets */
+    width: 100%; /** Set the width to 100% of it's parent */
+    padding: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/** Button Styles **/
+.dropdown button {
+    background: #FF7D7D;
+    color: #FFFFFF;
+    border: none;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+}
+
+/** List Item Styles **/
+.dropdown a {
+    display: block;
+    padding: 0.2em 0.8em;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+}
+
+/** List Item Hover Styles **/
+.dropdown a:hover {
+    background: #BBBBBB;
+}
+
+.dropdown-menu {
+  width:3cm;
+}
+
+button {
+  width:8cm;
+}
+
+#p1 {
+  font-size:16px; 
+}
+
+#content3 {
+  height:500px;
+  max-width:560px;
+  width:560px;
+  margin-right:0.5cm;
+  margin-left:1cm;
+  background-color:white;
+  padding-right:18px;
+  padding-left:18px;
+  padding-bottom:18px;
+  padding-top:18px;
+  border-radius:5%;
+  display:inline-block;
+  float:right;
+}
+
+
