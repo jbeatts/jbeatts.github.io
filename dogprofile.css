@@ -1,0 +1,79 @@
+h1 {
+  color: black;
+  font-size: 86px;
+  font-family: ComicSansMS, cursive, sans-serif;
+  text-indent: 18px;
+	border: 18px solid black ;
+	text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  text-indent:18px;
+  font-size:64px;
+  padding-top:8px;
+  padding-bottom:8px;
+}
+ body {
+  background-color:#F9F7F6;
+ }
+
+
+ #picture {
+  height:50%;
+  width:auto;
+ }
+
+ #card {
+  background-color:white;
+  width:800px;
+  padding-top:1cm;
+  padding-bottom:1cm;
+  padding-right:1cm;
+  padding-left:1cm;
+  border-radius:10%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ }
+
+#top {
+  border-bottom: solid 2px black;
+  
+}
+
+#bottom {
+
+}
+
+.title {
+  text-decoration:underline;
+}
+
+.hello {
+  background-color:#e8e3c7;
+  padding-left:200px;
+  padding-right:200px;
+  padding-bottom:20px;
+  padding-top:20px;
+  font-size:120px;
+  color:#b85b3f;
+  font-family:'Cookie' , cursive;
+}
+
+.dashed-shadow:after{
+  z-index:2;
+  content:attr(data-text);
+  position:absolute;
+  margin-left:-172px;
+  color:#ba9186;
+}
+/*#b85b3f <--this is color for top text*/
+
+
+
