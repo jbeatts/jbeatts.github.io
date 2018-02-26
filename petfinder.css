@@ -90,14 +90,14 @@ ul {
 .banner {
   width:4.5%;
   height:auto;
-  padding-right:0.001cm;
+  padding-right:0.0001cm;
 
 }
 
 #across {
   display:inline-block;
   margin-top:3cm;
-  margin-left:2.5cm;
+  
 
 }
 
@@ -138,6 +138,10 @@ h1 {
 .navbar:visited {
   text-decoration:none;
 
+}
+
+.navbar:hover {
+  border-bottom: 2px solid red;
 }
 
 
