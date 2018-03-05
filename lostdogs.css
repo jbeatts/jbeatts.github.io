@@ -26,15 +26,12 @@ body {
   background-color: #e6f7ff;
 }
 
-input {
-  width:20%;
-  height:30px;
-  margin-left:1cm;
-}
 
-button {
-  height:30px;
-  border-radius:20%;
+#search {
+  width:2.5cm;
+  height:1cm;
+  border-radius:15%;
+  margin-left:3cm;
 }
 
 .pics {
@@ -61,3 +58,33 @@ button {
   display:flex;
 
 }
+
+#colors #size{
+  float:left;
+  display:inline;
+}
+
+.optioncolor {
+  margin-left:0.25cm;
+  width:80px;
+  height:80px;
+}
+
+
+.optionbreed {
+  height:100px;
+  width:200px;
+}
+
+.row {
+  display:flex;
+}
+
+.column {
+  flex:50%;
+}
+ .paragraph {
+  font-size:16px;
+ }
+
+
