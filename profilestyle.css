@@ -8,7 +8,7 @@ h1 {
 }
 
 body {
-	background-color:;
+	background-color:#ffe6e6;
 }
 
 #row {
@@ -17,6 +17,7 @@ body {
 
 #left {
 	flex:80%;
+	background-color:	#909090;
 }
 
 #right {
@@ -25,9 +26,52 @@ body {
 	background-color:white;
 }
 
-#reason {
+
+.links {
+	text-decoration:none;
+	color:black;
+	padding-right:18px;
+	padding-left:18px;
+	padding-top:9px;
+	padding-bottom:9px;
 	background-color:white;
+	margin-right:0.25cm;
+	border-left: solid black 2px;
 }
-  
 
+.links:hover {
+	border-left:solid black 6px;
+	box-shadow: 1px 2px 4px 8px black;
+}
 
+aside {
+	float:right;
+	margin-right:7cm;
+	background-color:white;
+	padding-right:16px;
+	padding-left:16px;
+	padding-top:16px;
+	padding-bottom:16px;
+}
+
+li {
+	list-style-type:none;
+	float:middle;
+}
+
+#information {
+	float:left;
+	margin-left:7cm;
+	padding-right:2.5cm;
+	padding-left:1cm;
+	border-right:solid 1px black;
+	border-left:solid 1px black;
+	border-bottom:solid 1px black;
+	border-top:solid 1px black;
+}
+
+#why {
+	max-width:8cm;
+	margin-bottom:;
+
+}

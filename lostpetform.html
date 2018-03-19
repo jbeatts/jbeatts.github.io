@@ -1,0 +1,244 @@
+ <html>
+
+<head>
+    <title>Lost Pet Form</title>
+    <link rel="stylesheet" type="text/css" href="lostpetform.css">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css"
+        rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link href="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/css/bootstrap-multiselect.css"
+        rel="stylesheet" type="text/css" />
+    <script src="http://cdn.rawgit.com/davidstutz/bootstrap-multiselect/master/dist/js/bootstrap-multiselect.js"
+        type="text/javascript"></script>
+</head>
+</head>
+
+<body>
+    <h1 style="line-height:0cm; padding-top:1cm; padding-bottom:0.75cm; font-family: 'Rammetto One', cursive;"><a style="color:black;" href="petfinder.html">FindMyPet</a></h1>
+    <div class="form-style-5">
+        <form>
+            <fieldset>
+                <legend><span class="number">1</span>Pet Information</legend>
+                <input type="text" name="field1" placeholder="Pet name *">
+                <div class="container" style="width:600px;">
+
+                    <br/>
+                    <form method="post" id="framework_form">
+                        <div class="form-group">
+                            <p>Select breed:</p>
+                             <select id="lstFruits" multiple="multiple">
+            <option value="1">Affenpinscher</option>
+    <option value="2">Afghan Hound</option>
+    <option value="3">Airedale Terrier</option>
+    <option value="4">Alaskan Malamute</option>
+    <option value="5">American Cocker Spaniel</option>
+    <option value="6">American Staffordshire Bull Terrier</option>
+    <option value="7">Anatolian Shepherd Dog</option>
+    <option value="8">Australian Cattle Dog</option>
+    <option value="9">Australian Kelpie</option>
+    <option value="10">Australian Shepherd Dog</option>
+    <option value="11">Australian Silky Terrier</option>
+    <option value="12">Australian Terrier</option>
+    <option value="13">Basenji</option>
+    <option value="14">Basset Fauve de Bretagne</option>
+    <option value="15">Basset Hound</option>
+    <option value="16">Beagle</option>
+    <option value="17">Bearded Collie</option>
+    <option value="18">Bedlington Terrier</option>
+    <option value="19">Belgian Shepherd Groenendael</option>
+    <option value="20">Belgian Shepherd Dog Laekenois</option>
+    <option value="21">Belgian Shepherd Dog Malinois</option>
+    <option value="22">Belgian Shepherd Tervueren</option>
+    <option value="23">Bernese Mountain Dog</option>
+    <option value="24">Bichon Frise</option>
+    <option value="25">Bloodhound</option>
+    <option value="26">Border Collie</option>
+    <option value="27">Border Terrier</option>
+    <option value="28">Borzoi</option>
+    <option value="29">Boston Terrier</option>
+    <option value="30">Bouvier des Flandres</option>
+    <option value="31">Boxer Dog'</option>
+    <option value="32">Bracco Italiano</option>
+    <option value="33">Briard</option>
+    <option value="34">Brittany Dog</option>
+    <option value="35">Bulldogs</option>
+    <option value="36">Bullmastiff</option>
+    <option value="37">Bull Terrier</option>
+    <option value="38">Cairn Terrier</option>
+    <option value="39">Cavalier King Charles Spaniel</option>
+    <option value="40">Cavoodle</option>
+    <option value="41">Cesky Terrier</option>
+    <option value="42">Chesapeake Bay Retriever</option>
+    <option value="43">Chihuahua (Smooth Coat)</option>
+    <option value="44">Chinese Crested</option>
+    <option value="45">Chow Chow</option>
+    <option value="46">Chow Chow (Smooth)</option>
+    <option value="47">Clumber Spaniel</option>
+    <option value="48">Collie (Rough)</option>
+    <option value="49">Collie (Smooth)</option>
+    <option value="50">Curly-Coated Retriever}</option>
+    <option value="51">Dachshund (Miniature Long Haired)</option>
+    <option value="52">Dachshund (Miniature Smooth)</option>
+    <option value="53">Dachshund (Miniature Wire Haired)</option>
+    <option value="54">Dachshund (Smooth Haired)</option>
+    <option value="55">Dachshund (Wire Haired)</option>
+    <option value="56">Dalmatian</option>
+    <option value="57">Dandie Dinmont Terrier</option>
+    <option value="58">Deerhound</option>
+    <option value="59">Dobermann Pinscher</option>
+    <option value="60">Dogue de Bordeaux</option>
+    <option value="61">English Cocker Spaniel</option>
+    <option value="62">English Setter</option>
+    <option value="63">English Springer Spaniel</option>
+    <option value="64">English Toy Terrier (Black and Tan)</option>
+    <option value="65">English Mastiff</option>
+    <option value="66">Field Spaniel</option>
+    <option value="67">Finnish Lapphund</option>
+    <option value="68">Finnish Spitz</option>
+    <option value="69">Flat-Coated Retriever</option>
+    <option value="70">Foxhound</option>
+    <option value="71">Fox Terrier Smooth Coat</option>
+    <option value="72">Fox Terrier Wire Coat</option>
+    <option value="73">French Bulldog</option>
+    <option value="74">German Shepherd Dog</option>
+    <option value="75">German Short-Haired Pointer</option>
+    <option value="76">German Spitz Klein</option>
+    <option value="77">German Wire-Haired Pointer</option>
+    <option value="78">Goldendoodle</option>
+    <option value="79">Golden Retriever</option>
+    <option value="80">Gordon Setter</option>
+    <option value="81">Great Dane</option>
+    <option value="82">Great Pyrenees</option>
+    <option value="83">Greyhound Dogs</option>
+    <option value="84">Great Pyrenean Mountain Dog</option>
+    <option value="85">Harrier Hound</option>
+    <option value="86">Havanese</option>
+    <option value="87">Hungarian Puli</option>
+    <option value="88">Hungarian Vizsla</option>
+    <option value="89">Hungarian Wire-Haired Vizsla</option>
+    <option value="90">Ibizan Hound</option>
+    <option value="91">Irish Setter</option>
+    <option value="92">Irish Terrier</option>
+    <option value="93">Irish Water Spaniel</option>
+    <option value="94">Irish Wolfhound</option>
+    <option value="95">Italian Greyhound</option>
+    <option value="96">Japanese Akita</option>
+    <option value="97">Japanese Chin</option>
+    <option value="98">Japanese Spitz</option>
+    <option value="99">Jug</option>
+    <option value="100">Keeshond</option>
+    <option value="101">Kerry Blue Terrier</option>
+    <option value="102">King Charles Spaniel</option>
+    <option value="103">Komondor</option>
+    <option value="104">Labradoodle</option>
+    <option value="105">Labrador Retriever</option>
+    <option value="106">Lakeland Terrier</option>
+    <option value="107">Leonberger</option>
+    <option value="108">Lhasa Apso</option>
+    <option value="109">Lowchen</option>
+    <option value="110">Miniature Bull Terrier</option>
+    <option value="111">Maltese</option>
+    <option value="112">Manchester Terrier</option>
+    <option value="113">Maremma Sheepdog</option>
+    <option value="114">Moodle</option>
+    <option value="115">Neapolitan Mastiff</option>
+    <option value="116">Newfoundland</option>
+    <option value="117">Norfolk Terrier</option>
+    <option value="118">Norwich Terrier</option>
+    <option value="119">Nova Scotia Duck Tolling Retriever</option>
+    <option value="120">Old English Sheepdog</option>
+    <option value="121">Papillon</option>
+    <option value="122">Parson Russell Terrier</option>
+    <option value="123">Pharaoh Hound</option>
+    <option value="124">Pinscher-Miniature</option>
+    <option value="125">Pointer Dog</option>
+    <option value="126">Pomeranian</option>
+    <option value="127">Poodle Miniature</option>
+    <option value="128">Poodle Standard</option>
+    <option value="129">Poodle Toy</option>
+    <option value="130">Portuguese Water Dog</option>
+    <option value="131">Pugs</option>
+    <option value="132">Pugalier</option>
+    <option value="133">Rhodesian Ridgeback</option>
+    <option value="134">Rottweiler</option>
+    <option value="135">Saluki</option>
+    <option value="136">Samoyed</option>
+    <option value="137">Schipperke</option>
+    <option value="138">Schnauzer Giant</option>
+    <option value="139">Schnauzer Miniature</option>
+    <option value="140">Schnauzer Standard</option>
+    <option value="140">Schnoodle</option>
+    <option value="140">Scoodle</option>
+    <option value="140">Scottish Terrier</option>
+    <option value="140">Shar Pei</option>
+    <option value="140">Shetland Sheepdog</option>
+    <option value="140">Shiba Inu</option>
+    <option value="140">Shih Tzu</option>
+    <option value="140">Siberian Husky</option>
+    <option value="140">Skye Terrier</option>
+    <option value="140">Sloughi</option>
+    <option value="140">Soft Coated Wheaten Terrier</option>
+    <option value="140">Spoodle</option>
+    <option value="140">Staffordshire Bull Terrier</option>
+    <option value="140">St Bernard Dog</option>
+    <option value="140">Sussex Spaniel</option>
+    <option value="140">Swedish Vallhund</option>
+    <option value="140">Tenterfield Terrier</option>
+    <option value="140">Tibetan Mastiff</option>
+    <option value="140">Tibetan Spaniel</option>
+    <option value="140">Tibetan Terrier</option>
+    <option value="140">Weimaraner</option>
+    <option value="140">Welsh Corgi (Cardigan)</option>
+    <option value="140">Welsh Corgi (Pembroke)</option>
+    <option value="140">Welsh Springer Spaniel</option>
+    <option value="140">Welsh Terrier</option>
+    <option value="140">West Highland White Terrier</option>
+    <option value="140">Whippe7/option>
+    <option value="1408">YorkshireTerrier</option>
+                   
+    </select>
+                        </div>
+                        <div class="form-group">
+                        </div>
+                    </form>
+                    <br />
+                </div>
+
+                <!--<textarea name="field3" placeholder=""></textarea>-->
+                <label for="job">Age:</label>
+                <select id="job" name="field4">
+                    <option value="fishkeeping">A year or older</option>
+                    <option value="reading">2-5</option>
+                    <option value="boxing">6-8</option>
+                    <option>9-12</option>
+                    <option value="gaming">13 years and older </option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend><span class="number">2</span> Your Information</legend>
+                <textarea name="field3" placeholder=""></textarea>
+            </fieldset>
+            <input type="submit" value="Submit" />
+        </form>
+    </div>
+</body>
+
+</html>
+
+ <script type="text/javascript">
+        $(function () {
+            $('#lstFruits').multiselect({
+                includeSelectAllOption: true
+            });
+            $('#btnSelected').click(function () {
+                var selected = $("#lstFruits option:selected");
+                var message = "";
+                selected.each(function () {
+                    message += $(this).text() + " " + $(this).val() + "\n";
+                });
+                alert(message);
+            });
+        });
+    </script>
