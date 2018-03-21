@@ -14,8 +14,8 @@ h1 {
 
 a {
   color:black;
-  padding-top:2cm;
-  padding-bottom:2cm;
+  padding-top:0cm;
+  padding-bottom:0cm;
 
 }
 
@@ -124,5 +124,304 @@ a {
 
 #multiple {
   height:1cm;
+}
+
+.form-group {
+  width:470px;
+}
+
+#petname {
+  width:470px;
+}
+
+#age {
+  width:470px;
+}
+
+#cssmenu ul,
+#cssmenu li,
+#cssmenu span,
+#cssmenu a {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+#cssmenu {
+  line-height: 1;
+  border-radius: 5px 5px 0 0;
+  -moz-border-radius: 5px 5px 0 0;
+  -webkit-border-radius: 5px 5px 0 0;
+  background: #141414;
+  background: -moz-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #141414));
+  background: -webkit-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -o-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -ms-linear-gradient(top, #333333 0%, #141414 100%);
+  background: linear-gradient(to bottom, #333333 0%, #141414 100%);
+  border-bottom: 2px solid #0fa1e0;
+  width: auto;
+}
+#cssmenu:after,
+#cssmenu ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#cssmenu a {
+  background: #141414;
+  background: -moz-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #333333), color-stop(100%, #141414));
+  background: -webkit-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -o-linear-gradient(top, #333333 0%, #141414 100%);
+  background: -ms-linear-gradient(top, #333333 0%, #141414 100%);
+  background: linear-gradient(to bottom, #333333 0%, #141414 100%);
+  color: #ffffff;
+  display: block;
+  font-family: Helvetica, Arial, Verdana, sans-serif;
+  padding: 19px 20px;
+  text-decoration: none;
+}
+#cssmenu ul {
+  list-style: none;
+}
+#cssmenu > ul > li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+}
+#cssmenu.align-center {
+  text-align: center;
+}
+#cssmenu.align-center > ul > li {
+  float: none;
+}
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+#cssmenu.align-right > ul {
+  float: right;
+}
+#cssmenu.align-right ul ul {
+  text-align: right;
+}
+#cssmenu > ul > li > a {
+  color: #ffffff;
+  font-size: 12px;
+}
+#cssmenu > ul > li:hover:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid #0fa1e0;
+  margin-left: -10px;
+}
+#cssmenu > ul > li:first-child > a {
+  border-radius: 5px 0 0 0;
+  -moz-border-radius: 5px 0 0 0;
+  -webkit-border-radius: 5px 0 0 0;
+}
+#cssmenu.align-right > ul > li:first-child > a,
+#cssmenu.align-center > ul > li:first-child > a {
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+#cssmenu.align-right > ul > li:last-child > a {
+  border-radius: 0 5px 0 0;
+  -moz-border-radius: 0 5px 0 0;
+  -webkit-border-radius: 0 5px 0 0;
+}
+#cssmenu > ul > li.active > a,
+#cssmenu > ul > li:hover > a {
+  color: #ffffff;
+  box-shadow: inset 0 0 3px #000000;
+  -moz-box-shadow: inset 0 0 3px #000000;
+  -webkit-box-shadow: inset 0 0 3px #000000;
+  background: #070707;
+  background: -moz-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #262626), color-stop(100%, #070707));
+  background: -webkit-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -o-linear-gradient(top, #262626 0%, #070707 100%);
+  background: -ms-linear-gradient(top, #262626 0%, #070707 100%);
+  background: linear-gradient(to bottom, #262626 0%, #070707 100%);
+}
+#cssmenu .has-sub {
+  z-index: 1;
+}
+#cssmenu .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub ul {
+  display: none;
+  position: absolute;
+  width: 200px;
+  top: 100%;
+  left: 0;
+}
+#cssmenu.align-right .has-sub ul {
+  left: auto;
+  right: 0;
+}
+#cssmenu .has-sub ul li {
+  *margin-bottom: -1px;
+}
+#cssmenu .has-sub ul li a {
+  background: #0fa1e0;
+  border-bottom: 1px dotted #31b7f1;
+  font-size: 11px;
+  filter: none;
+  display: block;
+  line-height: 120%;
+  padding: 10px;
+  color: #ffffff;
+}
+#cssmenu .has-sub ul li:hover a {
+  background: #0c7fb0;
+}
+#cssmenu ul ul li:hover > a {
+  color: #ffffff;
+}
+#cssmenu .has-sub .has-sub:hover > ul {
+  display: block;
+}
+#cssmenu .has-sub .has-sub ul {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+}
+#cssmenu.align-right .has-sub .has-sub ul,
+#cssmenu.align-right ul ul ul {
+  left: auto;
+  right: 100%;
+}
+#cssmenu .has-sub .has-sub ul li a {
+  background: #0c7fb0;
+  border-bottom: 1px dotted #31b7f1;
+}
+#cssmenu .has-sub .has-sub ul li a:hover {
+  background: #0a6d98;
+}
+#cssmenu ul ul li.last > a,
+#cssmenu ul ul li:last-child > a,
+#cssmenu ul ul ul li.last > a,
+#cssmenu ul ul ul li:last-child > a,
+#cssmenu .has-sub ul li:last-child > a,
+#cssmenu .has-sub ul li.last > a {
+  border-bottom: 0;
+}
+
+#cssmenu {
+  border-bottom:solid 4px #1abc9c;
+  margin-top:-0.95cm;
+}
+
+.form-style-5-2{
+    max-width: 500px;
+    padding: 10px 20px;
+    background: #f4f7f8;
+    margin: 10px auto;
+    padding: 20px;
+    background: #f4f7f8;
+    border-radius: 8px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.form-style-5-2 fieldset{
+    border: none;
+}
+.form-style-5-2 legend {
+    font-size: 1.4em;
+    margin-bottom: 10px;
+}
+.form-style-5-2 label {
+    display: block;
+    margin-bottom: 8px;
+}
+.form-style-5-2 input[type="text"],
+.form-style-5-2 input[type="date"],
+.form-style-5-2 input[type="datetime"],
+.form-style-5-2 input[type="email"],
+.form-style-5-2 input[type="number"],
+.form-style-5-2 input[type="search"],
+.form-style-5-2 input[type="time"],
+.form-style-5-2 input[type="url"],
+.form-style-5-2 textarea,
+.form-style-5-2 select {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    background: rgba(255,255,255,.1);
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    margin: 0;
+    outline: 0;
+    padding: 7px;
+    width: 100%;
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box; 
+    background-color: #e8eeef;
+    color:#8a97a0;
+    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    margin-bottom: 30px;
+    
+}
+.form-style-5-2 input[type="text"]:focus,
+.form-style-5-2 input[type="date"]:focus,
+.form-style-5-2 input[type="datetime"]:focus,
+.form-style-5-2 input[type="email"]:focus,
+.form-style-5-2 input[type="number"]:focus,
+.form-style-5-2 input[type="search"]:focus,
+.form-style-5-2 input[type="time"]:focus,
+.form-style-5-2 input[type="url"]:focus,
+.form-style-5-2 textarea:focus,
+.form-style-5-2 select:focus{
+    background: #d2d9dd;
+}
+.form-style-5-2 select{
+    -webkit-appearance: menulist-button;
+    height:35px;
+}
+.form-style-5-2 .number {
+    background: #1abc9c;
+    color: #fff;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    font-size: 0.8em;
+    margin-right: 4px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0 1px 0 rgba(255,255,255,0.2);
+    border-radius: 15px 15px 15px 0px;
+}
+
+.form-style-5-2 input[type="submit"],
+.form-style-5-2 input[type="button"]
+{
+    position: relative;
+    display: block;
+    padding: 19px 39px 18px 39px;
+    color: #FFF;
+    margin: 0 auto;
+    background: #1abc9c;
+    font-size: 18px;
+    text-align: center;
+    font-style: normal;
+    width: 100%;
+    border: 1px solid #16a085;
+    border-width: 1px 1px 3px;
+    margin-bottom: 10px;
+}
+.form-style-5-2 input[type="submit"]:hover,
+.form-style-5-2 input[type="button"]:hover
+{
+    background: #109177;
 }
 
