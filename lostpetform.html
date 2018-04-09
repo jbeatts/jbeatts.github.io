@@ -1,772 +1,597 @@
-<!DOCTYPE html>
 
 <html>
 <head>
-	<title>Lost Pet Form</title>
-	<link href="lostpetform.css" rel="stylesheet" type="text/css">
-	<link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
-	<meta charset='utf-8'>
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+    <title>Lost Pet Form</title>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="lostpetform.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Rammetto+One" rel="stylesheet">
 </head>
-
 <body>
-	<h1 style="line-height:0cm; padding-top:1.25cm; padding-bottom:1.25cm; font-family: 'Rammetto One', cursive;"><a href="petfinder.html" style="color:black; text-decoration:none;">FindMyPet</a>
-	</h1>
-<div id='cssmenu'>
-<ul>
-   <li><a href='#'><span>Home</span></a></li>
-   <li class='active has-sub'><a href='#'><span>Cats</span></a>
-      <ul>
-         <li class='has-sub'><a href='#'><span>Lost Cats</span></a>
-         </li>
-         <li class='has-sub'><a href='#'><span>Found Cats</span></a>
-         </li>
-      </ul>
-   </li>
-      <li class='active has-sub'><a href='#'><span>Dogs</span></a>
-      <ul>
-         <li class='has-sub'><a href='#'><span>Lost Dogs</span></a>
-         </li>
-         <li class='has-sub'><a href='#'><span>Found Dogs</span></a>
-         </li>
-      </ul>
-   </li>
-   <li class='last'><a href='#'><span>Make A Profile</span></a></li>
-
-</ul>
-</div>
-<br><br>
-
-	<div class="form-style-5" style="float:left; margin-left:2cm; width:600px;">
-		<form>
-			<fieldset>
-				<legend><span class="number">1</span>Pet Information</legend> <input id="petname" name="field1" placeholder="Pet name *" type="text">
-
-				<div class="container" style="width:600px;">
-					<br>
-
-
-					<form id="framework_form" method="post" name="framework_form">
-						<div class="form-group">
-							<p>Select breed:</p>
-							<select id="lstBreeds">
-								<option>
-									Affenpinscher
-								</option>
-
-								<option>
-									Afghan Hound
-								</option>
-
-								<option>
-									Airedale Terrier
-								</option>
-
-								<option>
-									Alaskan Malamute
-								</option>
-
-								<option>
-									American Cocker Spaniel
-								</option>
-
-								<option>
-									American Staffordshire Bull Terrier
-								</option>
-
-								<option>
-									Anatolian Shepherd Dog
-								</option>
-
-								<option>
-									Australian Cattle Dog
-								</option>
-
-								<option>
-									Australian Kelpie
-								</option>
-
-								<option>
-									Australian Shepherd Dog
-								</option>
-
-								<option>
-									Australian Silky Terrier
-								</option>
-
-								<option>
-									Australian Terrier
-								</option>
-
-								<option>
-									Basenji
-								</option>
-
-								<option>
-									Basset Fauve de Bretagne
-								</option>
-
-								<option>
-									Basset Hound
-								</option>
-
-								<option>
-									Beagle
-								</option>
-
-								<option>
-									Bearded Collie
-								</option>
-
-								<option>
-									Bedlington Terrier
-								</option>
-
-								<option>
-									Belgian Shepherd Groenendael
-								</option>
-
-								<option>
-									Belgian Shepherd Dog Laekenois
-								</option>
-
-								<option>
-									Belgian Shepherd Dog Malinois
-								</option>
-
-								<option>
-									Belgian Shepherd Tervueren
-								</option>
-
-								<option>
-									Bernese Mountain Dog
-								</option>
-
-								<option>
-									Bichon Frise
-								</option>
-
-								<option>
-									Bloodhound
-								</option>
-
-								<option>
-									Border Collie
-								</option>
-
-								<option>
-									Border Terrier
-								</option>
-
-								<option>
-									Borzoi
-								</option>
-
-								<option>
-									Boston Terrier
-								</option>
-
-								<option>
-									Bouvier des Flandres
-								</option>
-
-								<option>
-									Boxer Dog'
-								</option>
-
-								<option>
-									Bracco Italiano
-								</option>
-
-								<option>
-									Briard
-								</option>
-
-								<option>
-									Brittany Dog
-								</option>
-
-								<option>
-									Bulldogs
-								</option>
-
-								<option>
-									Bullmastiff
-								</option>
-
-								<option>
-									Bull Terrier
-								</option>
-
-								<option>
-									Cairn Terrier
-								</option>
-
-								<option>
-									Cavalier King Charles Spaniel
-								</option>
-
-								<option>
-									Cavoodle
-								</option>
-
-								<option>
-									Cesky Terrier
-								</option>
-
-								<option>
-									Chesapeake Bay Retriever
-								</option>
-
-								<option>
-									Chihuahua (Smooth Coat)
-								</option>
-
-								<option>
-									Chinese Crested
-								</option>
-
-								<option>
-									Chow Chow
-								</option>
-
-								<option>
-									Chow Chow (Smooth)
-								</option>
-
-								<option>
-									Clumber Spaniel
-								</option>
-
-								<option>
-									Collie (Rough)
-								</option>
-
-								<option>
-									Collie (Smooth)
-								</option>
-
-								<option>
-									Curly-Coated Retriever}
-								</option>
-
-								<option>
-									Dachshund (Miniature Long Haired)
-								</option>
-
-								<option>
-									Dachshund (Miniature Smooth)
-								</option>
-
-								<option>
-									Dachshund (Miniature Wire Haired)
-								</option>
-
-								<option>
-									Dachshund (Smooth Haired)
-								</option>
-
-								<option>
-									Dachshund (Wire Haired)
-								</option>
-
-								<option>
-									Dalmatian
-								</option>
-
-								<option>
-									Dandie Dinmont Terrier
-								</option>
-
-								<option>
-									Deerhound
-								</option>
-
-								<option>
-									Dobermann Pinscher
-								</option>
-
-								<option>
-									Dogue de Bordeaux
-								</option>
-
-								<option>
-									English Cocker Spaniel
-								</option>
-
-								<option>
-									English Setter
-								</option>
-
-								<option>
-									English Springer Spaniel
-								</option>
-
-								<option>
-									English Toy Terrier (Black and Tan)
-								</option>
-
-								<option>
-									English Mastiff
-								</option>
-
-								<option>
-									Field Spaniel
-								</option>
-
-								<option>
-									Finnish Lapphund
-								</option>
-
-								<option>
-									Finnish Spitz
-								</option>
-
-								<option>
-									Flat-Coated Retriever
-								</option>
-
-								<option>
-									Foxhound
-								</option>
-
-								<option>
-									Fox Terrier Smooth Coat
-								</option>
-
-								<option>
-									Fox Terrier Wire Coat
-								</option>
-
-								<option>
-									French Bulldog
-								</option>
-
-								<option>
-									German Shepherd Dog
-								</option>
-
-								<option>
-									German Short-Haired Pointer
-								</option>
-
-								<option>
-									German Spitz Klein
-								</option>
-
-								<option>
-									German Wire-Haired Pointer
-								</option>
-
-								<option>
-									Goldendoodle
-								</option>
-
-								<option>
-									Golden Retriever
-								</option>
-
-								<option>
-									Gordon Setter
-								</option>
-
-								<option>
-									Great Dane
-								</option>
-
-								<option>
-									Great Pyrenees
-								</option>
-
-								<option>
-									Greyhound Dogs
-								</option>
-
-								<option>
-									Great Pyrenean Mountain Dog
-								</option>
-
-								<option>
-									Harrier Hound
-								</option>
-
-								<option>
-									Havanese
-								</option>
-
-								<option>
-									Hungarian Puli
-								</option>
-
-								<option>
-									Hungarian Vizsla
-								</option>
-
-								<option>
-									Hungarian Wire-Haired Vizsla
-								</option>
-
-								<option>
-									Ibizan Hound
-								</option>
-
-								<option>
-									Irish Setter
-								</option>
-
-								<option>
-									Irish Terrier
-								</option>
-
-								<option>
-									Irish Water Spaniel
-								</option>
-
-								<option>
-									Irish Wolfhound
-								</option>
-
-								<option>
-									Italian Greyhound
-								</option>
-
-								<option>
-									Japanese Akita
-								</option>
-
-								<option>
-									Japanese Chin
-								</option>
-
-								<option>
-									Japanese Spitz
-								</option>
-
-								<option>
-									Jug
-								</option>
-
-								<option>
-									Keeshond
-								</option>
-
-								<option>
-									Kerry Blue Terrier
-								</option>
-
-								<option>
-									King Charles Spaniel
-								</option>
-
-								<option>
-									Komondor
-								</option>
-
-								<option>
-									Labradoodle
-								</option>
-
-								<option>
-									Labrador Retriever
-								</option>
-
-								<option>
-									Lakeland Terrier
-								</option>
-
-								<option>
-									Leonberger
-								</option>
-
-								<option>
-									Lhasa Apso
-								</option>
-
-								<option>
-									Lowchen
-								</option>
-
-								<option>
-									Miniature Bull Terrier
-								</option>
-
-								<option>
-									Maltese
-								</option>
-
-								<option>
-									Manchester Terrier
-								</option>
-
-								<option>
-									Maremma Sheepdog
-								</option>
-
-								<option>
-									Moodle
-								</option>
-
-								<option>
-									Neapolitan Mastiff
-								</option>
-
-								<option>
-									Newfoundland
-								</option>
-
-								<option>
-									Norfolk Terrier
-								</option>
-
-								<option>
-									Norwich Terrier
-								</option>
-
-								<option>
-									Nova Scotia Duck Tolling Retriever
-								</option>
-
-								<option>
-									Old English Sheepdog
-								</option>
-
-								<option>
-									Papillon
-								</option>
-
-								<option>
-									Parson Russell Terrier
-								</option>
-
-								<option>
-									Pharaoh Hound
-								</option>
-
-								<option>
-									Pinscher-Miniature
-								</option>
-
-								<option>
-									Pointer Dog
-								</option>
-
-								<option>
-									Pomeranian
-								</option>
-
-								<option>
-									Poodle Miniature
-								</option>
-
-								<option>
-									Poodle Standard
-								</option>
-
-								<option>
-									Poodle Toy
-								</option>
-
-								<option>
-									Portuguese Water Dog
-								</option>
-
-								<option>
-									Pugs
-								</option>
-
-								<option>
-									Pugalier
-								</option>
-
-								<option>
-									Rhodesian Ridgeback
-								</option>
-
-								<option>
-									Rottweiler
-								</option>
-
-								<option>
-									Saluki
-								</option>
-
-								<option>
-									Samoyed
-								</option>
-
-								<option>
-									Schipperke
-								</option>
-
-								<option>
-									Schnauzer Giant
-								</option>
-
-								<option>
-									Schnauzer Miniature
-								</option>
-
-								<option>
-									Schnauzer Standard
-								</option>
-
-								<option>
-									Schnoodle
-								</option>
-
-								<option>
-									Scoodle
-								</option>
-
-								<option>
-									Scottish Terrier
-								</option>
-
-								<option>
-									Shar Pei
-								</option>
-
-								<option>
-									Shetland Sheepdog
-								</option>
-
-								<option>
-									Shiba Inu
-								</option>
-
-								<option>
-									Shih Tzu
-								</option>
-
-								<option>
-									Siberian Husky
-								</option>
-
-								<option>
-									Skye Terrier
-								</option>
-
-								<option>
-									Sloughi
-								</option>
-
-								<option>
-									Soft Coated Wheaten Terrier
-								</option>
-
-								<option>
-									Spoodle
-								</option>
-
-								<option>
-									Staffordshire Bull Terrier
-								</option>
-
-								<option>
-									St Bernard Dog
-								</option>
-
-								<option>
-									Sussex Spaniel
-								</option>
-
-								<option>
-									Swedish Vallhund
-								</option>
-
-								<option>
-									Tenterfield Terrier
-								</option>
-
-								<option>
-									Tibetan Mastiff
-								</option>
-
-								<option>
-									Tibetan Spaniel
-								</option>
-
-								<option>
-									Tibetan Terrier
-								</option>
-
-								<option>
-									Weimaraner
-								</option>
-
-								<option>
-									Welsh Corgi (Cardigan)
-								</option>
-
-								<option>
-									Welsh Corgi (Pembroke)
-								</option>
-
-								<option>
-									Welsh Springer Spaniel
-								</option>
-
-								<option>
-									Welsh Terrier
-								</option>
-
-								<option>
-									West Highland White Terrier
-								</option>
-
-								<option>
-									Whippet
-								</option>
-
-								<option>
-									Yorkshire Terrier
-								</option>
-							</select>
-						</div>
-
-
-						<div class="form-group">
-						</div>
-					</form>
-					<br>
-				</div>
-				<!--<textarea name="field3" placeholder=""></textarea>-->
-				<label>Age:</label> <select id="age" name="field4">
-					<option>
-					</option>
-
-					<option>
-						2-5
-					</option>
-
-					<option>
-						6-8
-					</option>
-
-					<option>
-						9-12
-					</option>
-
-					<option>
-						13 years and older
-					</option>
-				</select>
-			</fieldset>
-
-
-			
-	</div>
-	<div class="form-style-5-2" style="float:right; margin-right:2cm; width:600px;" >
-	<form>
-
-				<legend><span class="number">2</span> Your Information</legend> 
-
-				<textarea name="field3" placeholder=""></textarea>
-			</form>
-			<input type="submit" value="Submit">
-		</form>
-	</div>
+    <h1 style="line-height:0cm; padding-top:1.25cm; padding-bottom:1.25cm; font-family: 'Rammetto One', cursive;"><a href="petfinder.html" style="color:black; text-decoration:none;">FindMyPet</a></h1><br>
+    <br>
+    <div id='cssmenu'>
+        <ul>
+            <li>
+                <a href='#'><span>Home</span></a>
+            </li>
+            <li class='active has-sub'>
+                <a href='#'><span>Cats</span></a>
+                <ul>
+                    <li class='has-sub'>
+                        <a href='#'><span>Lost Cats</span></a>
+                    </li>
+                    <li class='has-sub'>
+                        <a href='#'><span>Found Cats</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='active has-sub'>
+                <a href='#'><span>Dogs</span></a>
+                <ul>
+                    <li class='has-sub'>
+                        <a href='lostdogs.html'><span>Lost Dogs</span></a>
+                    </li>
+                    <li class='has-sub'>
+                        <a href='#'><span>Found Dogs</span></a>
+                    </li>
+                </ul>
+            </li>
+            <li class='last'>
+                <a href='profile.html'><span>Make A Profile</span></a>
+            </li>
+        </ul>
+    </div><br>
+    <br>
+    <div class="form-style-5" style="float:left; margin-left:2cm; width:600px;">
+        <form>
+            <fieldset style="border:none; max-width:460px; width:460px">
+                <legend><span class="number">1</span>Pet Information</legend> <input id="petname" name="field1" placeholder="Pet name *" type="text">
+                <div class="container" style="width:600px;">
+                    <br>
+                    <form id="framework_form" method="post" name="framework_form">
+                        <div class="form-group">
+                            <p>Select breed:</p><select id="lstBreeds" style="font-size:16px; margin-left:-8px">
+                                <option>
+                                    Affenpinscher
+                                </option>
+                                <option>
+                                    Afghan Hound
+                                </option>
+                                <option>
+                                    Airedale Terrier
+                                </option>
+                                <option>
+                                    Alaskan Malamute
+                                </option>
+                                <option>
+                                    American Cocker Spaniel
+                                </option>
+                                <option>
+                                    American Staffordshire Bull Terrier
+                                </option>
+                                <option>
+                                    Anatolian Shepherd Dog
+                                </option>
+                                <option>
+                                    Australian Cattle Dog
+                                </option>
+                                <option>
+                                    Australian Kelpie
+                                </option>
+                                <option>
+                                    Australian Shepherd Dog
+                                </option>
+                                <option>
+                                    Australian Silky Terrier
+                                </option>
+                                <option>
+                                    Australian Terrier
+                                </option>
+                                <option>
+                                    Basenji
+                                </option>
+                                <option>
+                                    Basset Fauve de Bretagne
+                                </option>
+                                <option>
+                                    Basset Hound
+                                </option>
+                                <option>
+                                    Beagle
+                                </option>
+                                <option>
+                                    Bearded Collie
+                                </option>
+                                <option>
+                                    Bedlington Terrier
+                                </option>
+                                <option>
+                                    Belgian Shepherd Groenendael
+                                </option>
+                                <option>
+                                    Belgian Shepherd Dog Laekenois
+                                </option>
+                                <option>
+                                    Belgian Shepherd Dog Malinois
+                                </option>
+                                <option>
+                                    Belgian Shepherd Tervueren
+                                </option>
+                                <option>
+                                    Bernese Mountain Dog
+                                </option>
+                                <option>
+                                    Bichon Frise
+                                </option>
+                                <option>
+                                    Bloodhound
+                                </option>
+                                <option>
+                                    Border Collie
+                                </option>
+                                <option>
+                                    Border Terrier
+                                </option>
+                                <option>
+                                    Borzoi
+                                </option>
+                                <option>
+                                    Boston Terrier
+                                </option>
+                                <option>
+                                    Bouvier des Flandres
+                                </option>
+                                <option>
+                                    Boxer Dog'
+                                </option>
+                                <option>
+                                    Bracco Italiano
+                                </option>
+                                <option>
+                                    Briard
+                                </option>
+                                <option>
+                                    Brittany Dog
+                                </option>
+                                <option>
+                                    Bulldogs
+                                </option>
+                                <option>
+                                    Bullmastiff
+                                </option>
+                                <option>
+                                    Bull Terrier
+                                </option>
+                                <option>
+                                    Cairn Terrier
+                                </option>
+                                <option>
+                                    Cavalier King Charles Spaniel
+                                </option>
+                                <option>
+                                    Cavoodle
+                                </option>
+                                <option>
+                                    Cesky Terrier
+                                </option>
+                                <option>
+                                    Chesapeake Bay Retriever
+                                </option>
+                                <option>
+                                    Chihuahua (Smooth Coat)
+                                </option>
+                                <option>
+                                    Chinese Crested
+                                </option>
+                                <option>
+                                    Chow Chow
+                                </option>
+                                <option>
+                                    Chow Chow (Smooth)
+                                </option>
+                                <option>
+                                    Clumber Spaniel
+                                </option>
+                                <option>
+                                    Collie (Rough)
+                                </option>
+                                <option>
+                                    Collie (Smooth)
+                                </option>
+                                <option>
+                                    Curly-Coated Retriever}
+                                </option>
+                                <option>
+                                    Dachshund (Miniature Long Haired)
+                                </option>
+                                <option>
+                                    Dachshund (Miniature Smooth)
+                                </option>
+                                <option>
+                                    Dachshund (Miniature Wire Haired)
+                                </option>
+                                <option>
+                                    Dachshund (Smooth Haired)
+                                </option>
+                                <option>
+                                    Dachshund (Wire Haired)
+                                </option>
+                                <option>
+                                    Dalmatian
+                                </option>
+                                <option>
+                                    Dandie Dinmont Terrier
+                                </option>
+                                <option>
+                                    Deerhound
+                                </option>
+                                <option>
+                                    Dobermann Pinscher
+                                </option>
+                                <option>
+                                    Dogue de Bordeaux
+                                </option>
+                                <option>
+                                    English Cocker Spaniel
+                                </option>
+                                <option>
+                                    English Setter
+                                </option>
+                                <option>
+                                    English Springer Spaniel
+                                </option>
+                                <option>
+                                    English Toy Terrier (Black and Tan)
+                                </option>
+                                <option>
+                                    English Mastiff
+                                </option>
+                                <option>
+                                    Field Spaniel
+                                </option>
+                                <option>
+                                    Finnish Lapphund
+                                </option>
+                                <option>
+                                    Finnish Spitz
+                                </option>
+                                <option>
+                                    Flat-Coated Retriever
+                                </option>
+                                <option>
+                                    Foxhound
+                                </option>
+                                <option>
+                                    Fox Terrier Smooth Coat
+                                </option>
+                                <option>
+                                    Fox Terrier Wire Coat
+                                </option>
+                                <option>
+                                    French Bulldog
+                                </option>
+                                <option>
+                                    German Shepherd Dog
+                                </option>
+                                <option>
+                                    German Short-Haired Pointer
+                                </option>
+                                <option>
+                                    German Spitz Klein
+                                </option>
+                                <option>
+                                    German Wire-Haired Pointer
+                                </option>
+                                <option>
+                                    Goldendoodle
+                                </option>
+                                <option>
+                                    Golden Retriever
+                                </option>
+                                <option>
+                                    Gordon Setter
+                                </option>
+                                <option>
+                                    Great Dane
+                                </option>
+                                <option>
+                                    Great Pyrenees
+                                </option>
+                                <option>
+                                    Greyhound Dogs
+                                </option>
+                                <option>
+                                    Great Pyrenean Mountain Dog
+                                </option>
+                                <option>
+                                    Harrier Hound
+                                </option>
+                                <option>
+                                    Havanese
+                                </option>
+                                <option>
+                                    Hungarian Puli
+                                </option>
+                                <option>
+                                    Hungarian Vizsla
+                                </option>
+                                <option>
+                                    Hungarian Wire-Haired Vizsla
+                                </option>
+                                <option>
+                                    Ibizan Hound
+                                </option>
+                                <option>
+                                    Irish Setter
+                                </option>
+                                <option>
+                                    Irish Terrier
+                                </option>
+                                <option>
+                                    Irish Water Spaniel
+                                </option>
+                                <option>
+                                    Irish Wolfhound
+                                </option>
+                                <option>
+                                    Italian Greyhound
+                                </option>
+                                <option>
+                                    Japanese Akita
+                                </option>
+                                <option>
+                                    Japanese Chin
+                                </option>
+                                <option>
+                                    Japanese Spitz
+                                </option>
+                                <option>
+                                    Jug
+                                </option>
+                                <option>
+                                    Keeshond
+                                </option>
+                                <option>
+                                    Kerry Blue Terrier
+                                </option>
+                                <option>
+                                    King Charles Spaniel
+                                </option>
+                                <option>
+                                    Komondor
+                                </option>
+                                <option>
+                                    Labradoodle
+                                </option>
+                                <option>
+                                    Labrador Retriever
+                                </option>
+                                <option>
+                                    Lakeland Terrier
+                                </option>
+                                <option>
+                                    Leonberger
+                                </option>
+                                <option>
+                                    Lhasa Apso
+                                </option>
+                                <option>
+                                    Lowchen
+                                </option>
+                                <option>
+                                    Miniature Bull Terrier
+                                </option>
+                                <option>
+                                    Maltese
+                                </option>
+                                <option>
+                                    Manchester Terrier
+                                </option>
+                                <option>
+                                    Maremma Sheepdog
+                                </option>
+                                <option>
+                                    Moodle
+                                </option>
+                                <option>
+                                    Neapolitan Mastiff
+                                </option>
+                                <option>
+                                    Newfoundland
+                                </option>
+                                <option>
+                                    Norfolk Terrier
+                                </option>
+                                <option>
+                                    Norwich Terrier
+                                </option>
+                                <option>
+                                    Nova Scotia Duck Tolling Retriever
+                                </option>
+                                <option>
+                                    Old English Sheepdog
+                                </option>
+                                <option>
+                                    Papillon
+                                </option>
+                                <option>
+                                    Parson Russell Terrier
+                                </option>
+                                <option>
+                                    Pharaoh Hound
+                                </option>
+                                <option>
+                                    Pinscher-Miniature
+                                </option>
+                                <option>
+                                    Pointer Dog
+                                </option>
+                                <option>
+                                    Pomeranian
+                                </option>
+                                <option>
+                                    Poodle Miniature
+                                </option>
+                                <option>
+                                    Poodle Standard
+                                </option>
+                                <option>
+                                    Poodle Toy
+                                </option>
+                                <option>
+                                    Portuguese Water Dog
+                                </option>
+                                <option>
+                                    Pugs
+                                </option>
+                                <option>
+                                    Pugalier
+                                </option>
+                                <option>
+                                    Rhodesian Ridgeback
+                                </option>
+                                <option>
+                                    Rottweiler
+                                </option>
+                                <option>
+                                    Saluki
+                                </option>
+                                <option>
+                                    Samoyed
+                                </option>
+                                <option>
+                                    Schipperke
+                                </option>
+                                <option>
+                                    Schnauzer Giant
+                                </option>
+                                <option>
+                                    Schnauzer Miniature
+                                </option>
+                                <option>
+                                    Schnauzer Standard
+                                </option>
+                                <option>
+                                    Schnoodle
+                                </option>
+                                <option>
+                                    Scoodle
+                                </option>
+                                <option>
+                                    Scottish Terrier
+                                </option>
+                                <option>
+                                    Shar Pei
+                                </option>
+                                <option>
+                                    Shetland Sheepdog
+                                </option>
+                                <option>
+                                    Shiba Inu
+                                </option>
+                                <option>
+                                    Shih Tzu
+                                </option>
+                                <option>
+                                    Siberian Husky
+                                </option>
+                                <option>
+                                    Skye Terrier
+                                </option>
+                                <option>
+                                    Sloughi
+                                </option>
+                                <option>
+                                    Soft Coated Wheaten Terrier
+                                </option>
+                                <option>
+                                    Spoodle
+                                </option>
+                                <option>
+                                    Staffordshire Bull Terrier
+                                </option>
+                                <option>
+                                    St Bernard Dog
+                                </option>
+                                <option>
+                                    Sussex Spaniel
+                                </option>
+                                <option>
+                                    Swedish Vallhund
+                                </option>
+                                <option>
+                                    Tenterfield Terrier
+                                </option>
+                                <option>
+                                    Tibetan Mastiff
+                                </option>
+                                <option>
+                                    Tibetan Spaniel
+                                </option>
+                                <option>
+                                    Tibetan Terrier
+                                </option>
+                                <option>
+                                    Weimaraner
+                                </option>
+                                <option>
+                                    Welsh Corgi (Cardigan)
+                                </option>
+                                <option>
+                                    Welsh Corgi (Pembroke)
+                                </option>
+                                <option>
+                                    Welsh Springer Spaniel
+                                </option>
+                                <option>
+                                    Welsh Terrier
+                                </option>
+                                <option>
+                                    West Highland White Terrier
+                                </option>
+                                <option>
+                                    Whippet
+                                </option>
+                                <option>
+                                    Yorkshire Terrier
+                                </option>
+                            </select>
+                        </div>
+                        <div class="form-group"></div>
+                    </form><br>
+                </div><!--<textarea name="field3" placeholder=""></textarea>-->
+                <label>Age:</label> <select id="age" name="field4">
+                    <option>
+                    </option>
+                    <option>
+                        2-5
+                    </option>
+                    <option>
+                        6-8
+                    </option>
+                    <option>
+                        9-12
+                    </option>
+                    <option>
+                        13 years and older
+                    </option>
+                </select>
+            </fieldset>
+        </form>
+    </div>
+    <div class="form-style-5-2" style="float:right; margin-right:2cm; width:600px;">
+        <form>
+            <legend><span class="number">2</span> Your Information</legend> 
+            <textarea name="field3" placeholder=""></textarea>
+        </form><input type="submit" value="Submit">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js">
+    </script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js">
+    </script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    </script>
 </body>
 </html>

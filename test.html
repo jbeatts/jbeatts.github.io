@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test</title>
+	<script src="test.js"></script>
+	<script
+  src="https://code.jquery.com/jquery-1.11.0.js"
+  integrity="sha256-zgND4db0iXaO7v4CLBIYHGoIIudWI5hRMQrPB20j0Qw="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-6">
+      <label for="select1">Test 1 - Binding to simple arrays</label>
+      <br/>
+      <select id="select1" multiple="multiple" class="form-control" data-bind="options: availableValues, selectedOptions: selectedValues, multiselect: {
+    includeSelectAllOption: true
+  }">
+      </select>   
+      <style>
+      	.container-fluid {
+      		width:300px;
+      	}
+      </style>   
+   
+  </div>
+</div>
+</body>
+</html>

@@ -21,18 +21,18 @@ a {
 
 .form-style-5{
     max-width: 500px;
-    padding: 10px 20px;
     background: #f4f7f8;
     margin: 10px auto;
-    padding: 20px;
+    padding: 15px;
     background: #f4f7f8;
     border-radius: 8px;
     font-family: Georgia, "Times New Roman", Times, serif;
 }
 .form-style-5 fieldset{
     border: none;
+
 }
-.form-style-5 legend {
+.form-style-5 span {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
@@ -320,12 +320,14 @@ a {
 #cssmenu {
   border-bottom:solid 4px #1abc9c;
   margin-top:-0.95cm;
+  margin-right:.15cm;
+  margin-left:.15cm;
 }
 
 .form-style-5-2{
     max-width: 500px;
     padding: 10px 20px;
-    background: #f4f7f8;
+    background:#f4f7f8;
     margin: 10px auto;
     padding: 20px;
     background: #f4f7f8;
@@ -335,7 +337,7 @@ a {
 .form-style-5-2 fieldset{
     border: none;
 }
-.form-style-5-2 legend {
+.form-style-5-2 span {
     font-size: 1.4em;
     margin-bottom: 10px;
 }
@@ -424,4 +426,15 @@ a {
 {
     background: #109177;
 }
+
+legend {
+  max-width:470px;
+}
+
+.form-group {
+  padding-right:180px;
+
+}
+
+
 
